@@ -1,0 +1,44 @@
+{
+  "name": "Growing Tree",
+  "description": "Trees grow from the bottom with clean lines, branches extend recursively to form canopy",
+  "tabs": {
+    "basic": "Basic",
+    "shape": "Shape",
+    "animation": "Animation"
+  },
+  "labels": {
+    "treeCount": "Tree Count",
+    "growthSpeed": "Growth Speed",
+    "trunkWidth": "Trunk Width",
+    "treeHeight": "Tree Height",
+    "color1": "Trunk Color",
+    "color2": "Tip Color",
+    "rainbow": "Rainbow Mode",
+    "branchAngle": "Branch Angle",
+    "curvature": "Curvature",
+    "lengthDecay": "Length Decay",
+    "maxDepth": "Max Depth",
+    "symmetry": "Symmetry",
+    "branchProbability": "Branch Probability",
+    "swayStrength": "Sway Strength",
+    "swaySpeed": "Sway Speed",
+    "growthMode": "Growth Mode",
+    "growthStagger": "Growth Stagger"
+  },
+  "presets": {
+    "spring": "Spring",
+    "summer": "Summer",
+    "autumn": "Autumn",
+    "winter": "Winter",
+    "sakura": "Sakura",
+    "abstract": "Abstract"
+  },
+  "growthMode": {
+    "sync": "Sync",
+    "sequence": "Sequence"
+  },
+  "hints": {
+    "symmetryFull": "Fully Symmetric",
+    "symmetryRandom": "Fully Random"
+  }
+}

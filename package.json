@@ -1,26 +1,25 @@
 {
-  "name": "@bg-effects/fireworks",
+  "name": "@bg-effects/growing-tree",
   "version": "1.0.0",
   "type": "module",
   "packageManager": "pnpm@10.25.0",
-  "description": "Star Trails GL Effect - A high-performance star trails background effect built with OGL and Vue.",
+  "description": "Growing tree background effect with recursive fractal branches",
   "author": "huangzida",
   "license": "MIT",
   "keywords": [
-    "star-trails",
-    "webgl",
-    "ogl",
-    "vue",
-    "background-effect",
-    "animation"
+    "background",
+    "effect",
+    "tree",
+    "fractal",
+    "canvas"
   ],
-  "homepage": "https://github.com/huangzida/fireworks#readme",
+  "homepage": "https://github.com/huangzida/growing-tree#readme",
   "bugs": {
-    "url": "https://github.com/huangzida/fireworks/issues"
+    "url": "https://github.com/huangzida/growing-tree/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/huangzida/fireworks.git"
+    "url": "git+https://github.com/huangzida/growing-tree.git"
   },
   "sideEffects": [
     "**/*.css"

@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
   const isPlayground = mode === 'playground'
 
   return {
-    base: isPlayground ? '/fireworks/' : './',
+    base: isPlayground ? '/growing-tree/' : './',
     root: isPlayground ? 'playground' : '.',
     plugins: [
       vue(),
@@ -34,7 +34,7 @@ export default defineConfig(({ mode }) => {
     } : {
       lib: {
         entry: fileURLToPath(new URL('./src/index.ts', import.meta.url)),
-        name: 'BgEffectsFireworks',
+        name: 'BgEffectsGrowingTree',
         formats: ['es', 'umd'],
         fileName: (format) => `index.${format === 'es' ? 'js' : 'umd.cjs'}`,
       },

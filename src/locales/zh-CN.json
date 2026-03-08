@@ -1,0 +1,44 @@
+{
+  "name": "生长树",
+  "description": "简洁线条模拟树木从底部生长，分支递归延伸形成树冠",
+  "tabs": {
+    "basic": "基础",
+    "shape": "形态",
+    "animation": "动画"
+  },
+  "labels": {
+    "treeCount": "树的数量",
+    "growthSpeed": "生长速度",
+    "trunkWidth": "主干粗细",
+    "treeHeight": "树木高度",
+    "color1": "主干颜色",
+    "color2": "枝梢颜色",
+    "rainbow": "彩虹模式",
+    "branchAngle": "分支角度",
+    "curvature": "枝干弯曲",
+    "lengthDecay": "长度衰减",
+    "maxDepth": "递归深度",
+    "symmetry": "对称度",
+    "branchProbability": "分支概率",
+    "swayStrength": "摆动强度",
+    "swaySpeed": "摆动速度",
+    "growthMode": "生长模式",
+    "growthStagger": "生长节奏"
+  },
+  "presets": {
+    "spring": "春",
+    "summer": "夏",
+    "autumn": "秋",
+    "winter": "冬",
+    "sakura": "樱花",
+    "abstract": "抽象"
+  },
+  "growthMode": {
+    "sync": "同步",
+    "sequence": "依次"
+  },
+  "hints": {
+    "symmetryFull": "完全对称",
+    "symmetryRandom": "完全随机"
+  }
+}
