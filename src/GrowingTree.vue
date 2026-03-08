@@ -47,7 +47,6 @@ const effectiveConfig = computed(() => {
 
 // Convert props to engine config
 const getEngineConfig = (): GrowingTreeEngineConfig => {
-  const canvas = canvasRef.value!;
   const container = containerRef.value!;
   const dpr = Math.min(
     window.devicePixelRatio * (effectiveConfig.value.quality ?? 1.0),

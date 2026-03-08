@@ -75,7 +75,7 @@ export class Branch {
 
     // Calculate current end position (growth animation)
     let currentEndX = this.startX + (this.endX - this.startX) * branchProgress
-    let currentEndY = this.startY + (this.endY - this.startY) * branchProgress
+    const currentEndY = this.startY + (this.endY - this.startY) * branchProgress
 
     // Apply sway effect (only in swaying phase)
     if (phase === 'swaying') {
