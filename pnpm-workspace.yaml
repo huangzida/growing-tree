@@ -1,0 +1,12 @@
+packages:
+  - '.'
+
+# pnpm Catalogs (pnpm 9.5+)
+# 这允许你在 package.json 中使用 workspace:* 或 catalog:default
+# 而在这里统一管理它们的具体映射版本
+catalogs:
+  default:
+    "@bg-effects/debug-ui": "^1.0.0"
+    "@bg-effects/configs": "^1.0.0"
+    "@bg-effects/core": "^1.0.0"
+    "@bg-effects/shared": "^1.0.0"

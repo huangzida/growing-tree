@@ -1,0 +1,90 @@
+{
+  "name": "@bg-effects/fireworks",
+  "version": "1.0.0",
+  "type": "module",
+  "packageManager": "pnpm@10.25.0",
+  "description": "Star Trails GL Effect - A high-performance star trails background effect built with OGL and Vue.",
+  "author": "huangzida",
+  "license": "MIT",
+  "keywords": [
+    "star-trails",
+    "webgl",
+    "ogl",
+    "vue",
+    "background-effect",
+    "animation"
+  ],
+  "homepage": "https://github.com/huangzida/fireworks#readme",
+  "bugs": {
+    "url": "https://github.com/huangzida/fireworks/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangzida/fireworks.git"
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "engines": {
+    "node": ">=20.17.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "pnpm play",
+    "dev:watch": "vite build --watch",
+    "play": "vite --mode playground",
+    "build": "vite build",
+    "build:play": "vite build --mode playground",
+    "typecheck": "vue-tsc --noEmit",
+    "lint": "eslint \"src/**/*.{ts,vue}\"",
+    "format": "prettier --write \"**/*.{ts,vue,md,json}\"",
+    "release": "plop --plopfile scripts/release.cjs",
+    "clear": "rm -rf dist",
+    "no-lockfile": "pnpm install --no-frozen-lockfile",
+    "reinstall": "npx rimraf node_modules **/node_modules pnpm-lock.yaml && pnpm install"
+  },
+  "dependencies": {
+    "@bg-effects/debug-ui": "catalog:",
+    "defu": "^6.1.4"
+  },
+  "devDependencies": {
+    "@bg-effects/configs": "catalog:",
+    "@bg-effects/core": "catalog:",
+    "@bg-effects/shared": "catalog:",
+    "@eslint/js": "^9.21.0",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "changelogen": "^0.6.2",
+    "eslint": "^9.21.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "@typescript-eslint/eslint-plugin": "^8.24.1",
+    "@typescript-eslint/parser": "^8.24.1",
+    "typescript-eslint": "^8.24.1",
+    "ogl": "^1.0.11",
+    "plop": "^4.0.5",
+    "prettier": "^3.5.3",
+    "simple-git": "^3.30.0",
+    "typescript": "^5.9.3",
+    "unocss": "^66.6.0",
+    "vite": "^5.4.21",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
+    "vite-plugin-dts": "^4.5.4",
+    "vue": "^3.5.28",
+    "vue-tsc": "^2.2.12"
+  },
+  "peerDependencies": {
+    "ogl": "^1.0.0",
+    "vue": "^3.3.0"
+  }
+}
